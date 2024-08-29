@@ -1,5 +1,5 @@
-#ifndef LAB_VECTOR_H
-#define LAB_VECTOR_H
+#ifndef LABLATORY14_VECTOR_H
+#define LABLATORY14_VECTOR_H
 
 #include "stdio.h"
 #include <stdbool.h>
@@ -30,14 +30,12 @@ void pushBack(vector *v, int x);
 
 void popBack(vector *v);
 
-void test_popBack_notEmptyVector();
-
 int* atVector(vector *v, size_t index);
 
 int* back(vector *v);
 
 int* front(vector *v);
 
+// Все тесты перенести в отдельную папку, в отдельный файл
 
-
-#endif 
+#endif //LABLATORY14_VECTOR_H
